@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	background-image:url(../img/backgroundpaper.jpg);
+	}
+
+#all{
+	width:100%;
+	height:auto;
+	}
+#header{
+	width:600px;
+	height:190px;
+	}
+#logoUP{
+	width:200px;
+	height:73px;
+	background-image:url(../img/logo.png);
+	background-size:cover;
+	margin-top:70px;
+	margin-left:200px;
+	margin-right:200px;
+	float:left;}
+#nav{
+	display:none;
+	width:400px;
+	height:35px;
+	background-color:white;
+	float:right;
+	margin-top:200px;
+	margin-left:100px;}
+#navgap01{
+	display:none;
+	float:left;
+	width:2px;
+	height:25px;
+	background-color:#A43E24;
+	margin-left:20px;
+	}
+#aboutusT{
+	display:none;
+	float:left;
+	font-size:20px;
+	font-family:微軟正黑體;
+	color:black;
+	margin-left:20px;
+	}
+#navgap02{
+	display:none;
+	float:left;
+	width:2px;
+	height:25px;
+	background-color:#A43E24;
+	margin-left:20px;
+	}
+#menuT{
+	display:none;
+	float:left;
+	font-size:20px;
+	font-family:微軟正黑體;
+	color:black;
+	margin-left:20px;}
+#navgap03{
+	display:none;
+	float:left;
+	width:2px;
+	height:25px;
+	background-color:#A43E24;
+	margin-left:20px;
+	}
+#shopT{
+	display:none;
+	float:left;
+	font-size:20px;
+	font-family:微軟正黑體;
+	color:black;
+	margin-left:20px;}
+#navgap04{
+	display:none;
+	float:left;
+	width:2px;
+	height:25px;
+	background-color:#A43E24;
+	margin-left:20px;
+	}
+#slider{
+	display:none;
+	width:400px;
+	height:450px;
+	float:left;
+	background-size:cover;}
+#pic1{
+	display:none;
+	width:1026px;
+	height:345px;
+	background-image:url(../img/slider001.jpg)}
+#pic2{
+	display:none;
+	width:1026px;
+	height:345px;
+	background-image:url(../img/slider002.jpg)}
+#pic3{
+	display:none;
+	width:1026px;
+	height:345px;
+	background-image:url(../img/slider003.jpg)}
+#aboutus{
+	width:600px;
+	height:274px;
+	}
+#aboutustitle{
+	width:600px;
+	height:71px;
+	background-image:url(../img/aboutustitle_MB.png);
+	background-size:cover;
+	float:left;}
+#aboutuspic{
+	width:300px;
+	height:206px;
+	background-image:url(../img/aboutuspic.jpg);
+	background-size: cover;
+	float:left;
+	clear:left;}
+#aboutustextbox{
+	width:300px;
+	height:206px;
+	background-color:#385028;
+	float:right;
+	font-size:13px;
+	color:white;
+	font-family:微軟正黑體;}
+#menu{
+	width:600px;
+	height:694px;
+	}
+#menutitle{
+	width:600px;
+	height:71px;
+	background-image:url(../img/menutitle_MB.png);
+	float:left;
+	}
+
+#maindish{
+	width:300px;
+	height:311px;
+	background-image:url(../img/menu001_TB.jpg);
+	background-size:cover;
+	float:left;}
+#maindish:hover {
+	opacity:0.75;
+	}
+#ice{
+	width:300px;
+	height:311px;
+	background-image:url(../img/menu002_TB.jpg);
+	background-size: cover;
+	float:right;}
+#ice:hover {
+	opacity:0.75;
+	}
+#drinks{
+	width:300px;
+	height:311px;
+	background-image:url(../img/menu003_TB.jpg);
+	background-size: cover;
+	float:left;
+	}
+#drinks:hover {
+	opacity:0.75;
+	}
+#desserts{
+	width:300px;
+	height:311px;
+	background-image:url(../img/menu004_TB.jpg);
+	background-size: cover;
+	float:right;}
+#desserts:hover {
+	opacity:0.75;
+	}
+#shop{
+	width:600px;
+	height:430px;
+	}
+#shoptitle{
+	width:600px;
+	height:71px;
+	background-image:url(../img/shoptitle_MB.png);
+	margin-right:500px;
+	}
+#shopbox01{
+	width:600px;
+	height:90px;
+	background-image:url(../img/shop01_TB.jpg);
+	background-size: cover;
+	margin-left:0;
+	float:left;
+	transition: 0.4s;}	
+#shopbox02{
+	width:600px;
+	height:90px;
+	background-image:url(../img/shop02_TB.jpg);
+	background-size: cover;
+	margin-right:0;
+	float:right;
+	transition: 0.4s;}
+#shopbox03{
+	width:600px;
+	height:90px;
+	background-image:url(../img/shop03_TB.jpg);
+	background-size: cover;
+	margin-left:0;
+	float:left;
+	transition: 0.4s;}
+#shopbox04{
+	width:600px;
+	height:90px;
+	background-image:url(../img/shop04_TB.jpg);
+	background-size: cover;
+	margin-right:0;
+	float:right;
+	transition: 0.4s;}
+#shopbox01:hover {
+	background-image:url(../img/shopshow01.jpg);
+    width:600px;
+	height:370px;
+	background-size:cover;
+	}
+#shopbox02:hover {
+	background-image:url(../img/shopshow02.jpg);
+    width:600px;
+	height:370px;
+	background-size:cover;
+	}
+#shopbox03:hover {
+	background-image:url(../img/shopshow03.jpg);
+    width:600px;
+	height:370px;
+	background-size:cover;
+	}
+#shopbox04:hover {
+	background-image:url(../img/shopshow04.jpg);
+    width:600px;
+	height:370px;
+	background-size:cover;
+	}
+#infogap{
+	width:600px;
+	height:37px;}
+#info{
+	width:600px;
+	height:120px;
+	background-color:#9EB595;}
+#infoR{
+	width:300px;
+	height:100px;
+	float:left;
+	}
+#homebox{
+	width:300px;
+	height:33px;
+	float:left;
+	}
+#homepic{
+	width:20px;
+	height:20px;
+	background-image:url(../img/home.png);
+	background-size:cover;
+	float:left;
+	margin-left:70px;
+	margin-top:15px;
+	}
+#address{
+	font-size:10px;
+	font-family:微軟正黑體;
+	color:white;
+	float:left;
+	margin-left:8px;
+	margin-top:15px;
+	}
+#mailbox{
+	width:300px;
+	height:33px;
+	float:left;}
+#mailpic{
+	width:20px;
+	height:20px;
+	background-image:url(../img/mail.png);
+	background-size:cover;
+	float:left;
+	margin-left:70px;
+	margin-top:15px;
+	}
+#mailaddress{
+	font-size:10px;
+	font-family:微軟正黑體;
+	color:white;
+	float:left;
+	margin-left:8px;
+	margin-top:15px;
+	}
+#phonebox{
+	width:300px;
+	height:33px;
+	float:left;
+	}
+#phonepic{
+	width:20px;
+	height:20px;
+	background-image:url(../img/phone.png);
+	background-size:cover;
+	float:left;
+	margin-left:70px;
+	margin-top:15px;
+	}
+#phonenumber{
+	font-size:10px;
+	font-family:微軟正黑體;
+	color:white;
+	float:left;
+	margin-left:8px;
+	margin-top:15px;}
+#infoL{
+	width: 300px;
+	height: 100px;
+	float: right;
+		}
+#infoline{
+	width:1px;
+	height:80px;
+	background-color: white;
+	float: left;
+	margin-right:20px;
+	margin-top:20px;
+	}
+#logoDOWN{
+	width:160px;
+	height:58px;
+	background-image:url(../img/logo.png);
+	background-size:cover;
+	margin-top:25px;}
